@@ -84,10 +84,10 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Documentations',
             items: [
               {
-                label: 'Tutorial',
+                label: 'BBTK',
                 to: '/docs/intro',
               },
             ],
@@ -97,7 +97,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial #1',
-                to: '/tutorials/Tutorials-demo',
+                to: '/docs/tutorial-basics/congratulations',
               },
             ],
           },
