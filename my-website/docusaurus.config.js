@@ -72,7 +72,7 @@ const config = {
             position: 'left',
             label: 'docs',
           },
-      
+          {to: '/new-folder', label: 'mds', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           // {
           //   logo: 'img/logo.svg',
@@ -103,7 +103,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial #1',
-                to: '/docs/tutorial-basics/congratulations',
+                to: '/new-folder/markdown-page',
               },
             ],
           },
@@ -114,6 +114,11 @@ const config = {
               //   label: 'Stack Overflow',
               //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               // },
+              // youtube link //
+              {
+                label: 'YouTube',
+                href: 'https://www.youtube.com/channel/UCB1n48TB6f6TuMm75jZ18-w',
+              },
               // discord link //
               {
                 label: 'Discord',
@@ -132,6 +137,11 @@ const config = {
               {
                 label: 'Blog',
                 to: '/blog',
+              },
+              // gumroad link //
+              {
+                label: 'Gumroad',
+                href: 'https://shmueldisrl.gumroad.com',
               },
               // Github link //
               // {
