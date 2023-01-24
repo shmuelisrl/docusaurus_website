@@ -72,16 +72,13 @@ const config = {
             position: 'left',
             label: 'docs',
           },
-          {to: '/new-folder', label: 'mds', position: 'left'},
+          // {to: '/new-folder', label: 'mds', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           // {
           //   logo: 'img/logo.svg',
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
-          //   position: 'right',
-            
-            
-           
+          //   position: 'right',   
           // },
           
         ],
@@ -98,15 +95,15 @@ const config = {
               },
             ],
           },
-          {
-            title: 'Tutorials',
-            items: [
-              {
-                label: 'Tutorial #1',
-                to: '/new-folder/markdown-page',
-              },
-            ],
-          },
+          // {
+          //   title: 'Tutorials',
+          //   items: [
+          //     {
+          //       label: 'Tutorial #1',
+          //       to: '/new-folder/markdown-page',
+          //     },
+          //   ],
+          // },
           {
             title: 'Community',
             items: [
@@ -158,8 +155,20 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      
     }),
+   
+  
+  plugins: [
+    [
+      require.resolve("@cmfcmf/docusaurus-search-local"),
+      {
+        // Options here
+      },
+    ],
+  ],
+  
 };
+
+
 
 module.exports = config;
