@@ -59,7 +59,13 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      docs: {
+        sidebar: {
+          hideable: true,
+        },
+      },
       navbar: {
+    
         title: 'Home',
         logo: {
           alt: 'My Site Logo',
@@ -72,10 +78,18 @@ const config = {
             position: 'left',
             label: 'docs',
           },
+          // {
+          //   type: 'doc',
+          //   docId: 'community',
+          //   label: 'community',
+          //   position: 'left',
+          // },
           // {to: '/new-folder', label: 'mds', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/community/community', label: 'community', position: 'left'}
           // {
-          //   logo: 'img/logo.svg',
+          //   logo: '/logos/twitter.svg',
+          //   src: `/logos/twitter.svg`,
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
           //   position: 'right',   
@@ -118,8 +132,10 @@ const config = {
               },
               // discord link //
               {
+                
                 label: 'Discord',
                 href: 'https://discord.gg/2cCDA5wbmU',
+
               },
               // twitter link //
               {
@@ -159,6 +175,17 @@ const config = {
    
   
   plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'community',
+        path: 'community',
+        routeBasePath: 'community',
+        sidebarPath: require.resolve('./sidebarsCommunity.js'),
+        // ... other options
+      },
+    ],
+  
     [
       require.resolve("@cmfcmf/docusaurus-search-local"),
       {
