@@ -6,7 +6,8 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #3e6ca8;
+/*   
+   --ifm-color-primary: #3e6ca8;
   --ifm-color-primary-dark: #386197;
   --ifm-color-primary-darker: #355c8f;
   --ifm-color-primary-darkest: #2b4c76;
@@ -15,19 +16,45 @@
   --ifm-color-primary-lightest: #658fc6;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  */
   /* backround color */
-  --ifm-background-color: #fffdfd;
+   /* --ifm-background-color: #fffdfd; */
   /* navbar, menu, &  - color */
-  --ifm-background-surface-color: #ffffff;
+  /* --ifm-background-surface-color: #ffffff;
  
   /* link highlight */
   /* --ifm-link-color: #f8e9e9; */
   
-  --docusaurus-highlighted-code-line-bg: #ded9d8;
+  /* --ifm-code-background: #edebeb */
   /* text in `` highlight color */
-  --ifm-code-background: #edebeb;
+  /* --ifm-code-background: #edebeb;
 
-  --background-color: #c5e7dc;
+  --background-color: #c5e7dc;  */
+
+  /* theme 2 \/ */
+
+   /* backround color */
+  --ifm-background-color: #F0EBE3;
+  /* navbar, menu, &  - color */
+  --ifm-background-surface-color: #E4DCCF;
+  /* link highlight */
+   --ifm-link-color: #A3B7B4; 
+  
+  --docusaurus-highlighted-code-line-bg: #b2a8d0;
+  /* text in `` highlight color */
+  --ifm-code-background: #A3B7B4;
+
+  --ifm-color-primary: #576F72;
+  --ifm-color-primary-dark: #617B7D;
+  --ifm-color-primary-darker: #6A8687;
+  --ifm-color-primary-darkest: #749292;
+  --ifm-color-primary-light: #7D9D9C;
+  --ifm-color-primary-lighter: #90AAA8;
+  --ifm-color-primary-lightest: #B7C4C0;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */

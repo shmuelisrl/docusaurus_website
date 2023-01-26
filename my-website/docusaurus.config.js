@@ -65,7 +65,9 @@ const config = {
         },
       },
       navbar: {
-    
+        
+        hideOnScroll: true,
+
         title: 'Home',
         logo: {
           alt: 'My Site Logo',
@@ -109,15 +111,15 @@ const config = {
               },
             ],
           },
-          // {
-          //   title: 'Tutorials',
-          //   items: [
-          //     {
-          //       label: 'Tutorial #1',
-          //       to: '/new-folder/markdown-page',
-          //     },
-          //   ],
-          // },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'Tutorials',
+                to: '/community/community/tutorials',
+              },
+            ],
+          },
           {
             title: 'Community',
             items: [
