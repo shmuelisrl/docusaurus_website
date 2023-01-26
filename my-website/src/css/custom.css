@@ -5,44 +5,33 @@
  */
 
 /* You can override the default Infima variables here. */
-:root {
-/*   
-   --ifm-color-primary: #3e6ca8;
-  --ifm-color-primary-dark: #386197;
-  --ifm-color-primary-darker: #355c8f;
-  --ifm-color-primary-darkest: #2b4c76;
-  --ifm-color-primary-light: #4477b9;
-  --ifm-color-primary-lighter: #4c7dbd;
-  --ifm-color-primary-lightest: #658fc6;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  */
-  /* backround color */
-   /* --ifm-background-color: #fffdfd; */
-  /* navbar, menu, &  - color */
-  /* --ifm-background-surface-color: #ffffff;
- 
-  /* link highlight */
-  /* --ifm-link-color: #f8e9e9; */
-  
-  /* --ifm-code-background: #edebeb */
-  /* text in `` highlight color */
-  /* --ifm-code-background: #edebeb;
 
-  --background-color: #c5e7dc;  */
+
+
+
+
+:root {
+
+/* hint colors */
+  --ifm-color-info-dark: rgb(40, 159, 198);
 
   /* theme 2 \/ */
 
    /* backround color */
-  --ifm-background-color: #F0EBE3;
+  --ifm-background-color: #eeebe5;
   /* navbar, menu, &  - color */
-  --ifm-background-surface-color: #E4DCCF;
+  --ifm-background-surface-color: #e5ded4;
+  /* footer color */
+  --ifm-footer-background-color: #e5ded4;
   /* link highlight */
    --ifm-link-color: #A3B7B4; 
   
   --docusaurus-highlighted-code-line-bg: #b2a8d0;
   /* text in `` highlight color */
   --ifm-code-background: #A3B7B4;
+
+
+
 
   --ifm-color-primary: #576F72;
   --ifm-color-primary-dark: #617B7D;
@@ -57,35 +46,69 @@
 
 }
 
+html.details_node_modules-\@docusaurus-theme-classic-lib-theme-Details-styles-module {
+  --docusaurus-details-decoration-color:  #061010;
+  --docusaurus-details-transition: transform var(--ifm-transition-fast) ease;
+  margin: 0 0 var(--ifm-spacing-vertical);
+  border: 1px solid  #061010;
+}
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  /* --ifm-color-primary: #8fabeb;
-  --ifm-color-primary-dark: #84a1e6;
-  --ifm-color-primary-darker: #7495e3;
-  --ifm-color-primary-darkest: #416ed9;
-  --ifm-color-primary-light: #c8d5f4;
-  --ifm-color-primary-lighter: #d8e1f7;
-  --ifm-color-primary-lightest: #ffffff;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+html[data-theme='dark'] {
+  
+   /* theme 2 \/ */
+  /* text color */
+  /* --ifm-color-content: #220c0c; */
+   /* backround color */
+   --ifm-background-color: #2C3333;
+   /* navbar, menu, &  - color */
+   --ifm-background-surface-color: #33474C;
+   /* footer color */
+      --ifm-footer-background-color: #33474C;
+      /* footer link... */
+      /* --ifm-color-emphasis-700: #220c0c; */
 
-  --ifm-code-background: #444444; */
+   /* link highlight */
+    --ifm-link-color: #A3B7B4; 
+   
+   --docusaurus-highlighted-code-line-bg: #b2a8d0;
+   /* text in `` highlight color */
+   --ifm-code-background: #A3B7B4;
+   /* hint colors */
+   --ifm-color-secondary-contrast-background: #474748;
+   --ifm-color-secondary-contrast-foreground: rgb(253,253,254);
+   --ifm-color-secondary-dark:  rgb(212,213,216);
 
-  --ifm-color-primary: #e9d8a6;
-  --ifm-color-primary-dark: #e1ca86;
-  --ifm-color-primary-darker: #ddc376;
-  --ifm-color-primary-darkest: #d1ae46;
-  --ifm-color-primary-light: #f1e6c6;
-  --ifm-color-primary-lighter: #f5edd6;
-  --ifm-color-primary-lightest: #ffffff;
-  --ifm-background-color: #001219;
-  --ifm-background-surface-color: #001219;
-  --ifm-link-color: #ddc376;
-  /* --docsearch-text-color: #003a52; */
-  --docusaurus-highlighted-code-line-bg: #746f6b;
-  --ifm-code-background: #685034;
-  --prism-background-color: #003a52;
+   --ifm-color-success-contrast-background: rgb(82 100 82);
+   --ifm-color-success-contrast-foreground: rgb(230, 246, 230);
+   --ifm-color-success-dark: #009400;
 
-  /* scroll-behavior: smooth; */
+   --ifm-color-info-contrast-background: rgb(69 93 100);
+   --ifm-color-info-contrast-foreground: rgb(238, 249, 253);
+   /* not work 1 \/ */
+   --ifm-color-info-dark: rgb(126,182,199);
+
+   --ifm-color-warning-contrast-background: rgb(108 97 67);
+   --ifm-color-warning-contrast-foreground: rgb(255, 248, 230);
+   --ifm-color-warning-dark: rgb(230,167,0);
+
+   --ifm-color-danger-contrast-background: rgb(100 60 62);
+   --ifm-color-danger-contrast-foreground: rgb(255, 235, 236);
+   --ifm-color-danger-dark: rgb(225,50,56);
+   
+
+   --ifm-color-primary: #A5C9CA;
+   --ifm-color-primary-dark: #B0D1D1;
+   --ifm-color-primary-darker: #BBD8D7;
+   --ifm-color-primary-darkest: #C6E0DE;
+   --ifm-color-primary-light: #D1E7E5;
+   --ifm-color-primary-lighter: #DCEFEB;
+   --ifm-color-primary-lightest:#E7F6F2;
+   --ifm-code-font-size: 95%;
+   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+/* hint colors */
+--ifm-color-info-dark: rgb(126, 182, 199);
+   
 }
 
 div[class^='announcementBar_'] {
@@ -94,3 +117,14 @@ div[class^='announcementBar_'] {
   font-weight: bold;
   font-size: 1.2rem;
 }
+.alert--success {
+    --ifm-alert-background-color: var( --ifm-color-success-contrast-background );
+    --ifm-alert-background-color-highlight: rgba(63, 75, 63, 0.15);
+    --ifm-alert-foreground-color: var( --ifm-color-success-contrast-foreground );
+    --ifm-alert-border-color: var(--ifm-color-success-dark);
+}
+/* darkmode code block fill color */
+html[data-theme='dark'] .codeBlock_node_modules-\@docusaurus-theme-classic-lib-theme-CodeBlock-Content-styles-module {
+  --ifm-pre-background: rgb(163, 179, 184);
+}
+
