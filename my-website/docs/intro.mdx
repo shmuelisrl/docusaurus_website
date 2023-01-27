@@ -14,17 +14,48 @@ test
 ## text
   make sure to put **spaces** to use _Markdown_
 
- <ReactPlayer playing controls url='/2023-01-20 14-08-08.mp4' />
+ <ReactPlayer playing controls autoplay width = '100%' height = '100%' url='/2023-01-20 14-08-08.mp4'  />
 
   _Markdown_ **hello** leave a line before and after video  
 
 
   g
 
+
 </details>
 
-///
+///  
+Gif
 
+<ReactPlayer 
+  playing 
+  autoplay 
+  loop 
+  width = '100%' 
+  height = '100%' 
+  url='/2023-01-27 15-54-55.mp4' 
+/>
+
+```js title="docusaurus.config.js"
+<ReactPlayer 
+  playing 
+  autoplay 
+  loop 
+  width = '100%' 
+  height = '100%' 
+  url='/2023-01-27 15-54-55.mp4' 
+/>
+```
+```js
+<ReactPlayer 
+  playing 
+  controls
+  autoplay 
+  width = '100%' 
+  height = '100%' 
+  url='/2023-01-27 15-54-55.mp4' 
+/>
+```
 :::note
 
 Some **content** with _Markdown_ `syntax`. Check [this `api`](#).
