@@ -46,20 +46,18 @@
 
 }
 
-html.details_node_modules-\@docusaurus-theme-classic-lib-theme-Details-styles-module {
-  --docusaurus-details-decoration-color:  #061010;
-  --docusaurus-details-transition: transform var(--ifm-transition-fast) ease;
-  margin: 0 0 var(--ifm-spacing-vertical);
-  border: 1px solid  #061010;
-}
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 html[data-theme='dark'] {
   
    /* theme 2 \/ */
+  
+
   /* text color */
   /* --ifm-color-content: #220c0c; */
    /* backround color */
    --ifm-background-color: #2C3333;
+   /* main text color */
+   --ifm-color-content:#e3e3e3;
    /* navbar, menu, &  - color */
    --ifm-background-surface-color: #33474C;
    /* footer color */
@@ -72,7 +70,7 @@ html[data-theme='dark'] {
    
    --docusaurus-highlighted-code-line-bg: #b2a8d0;
    /* text in `` highlight color */
-   --ifm-code-background: #A3B7B4;
+   --ifm-code-background: #687573;
    /* hint colors */
    --ifm-color-secondary-contrast-background: #474748;
    --ifm-color-secondary-contrast-foreground: rgb(253,253,254);
@@ -84,7 +82,6 @@ html[data-theme='dark'] {
 
    --ifm-color-info-contrast-background: rgb(69 93 100);
    --ifm-color-info-contrast-foreground: rgb(238, 249, 253);
-   /* not work 1 \/ */
    --ifm-color-info-dark: rgb(126,182,199);
 
    --ifm-color-warning-contrast-background: rgb(108 97 67);
@@ -105,26 +102,17 @@ html[data-theme='dark'] {
    --ifm-color-primary-lightest:#E7F6F2;
    --ifm-code-font-size: 95%;
    --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-
-/* hint colors */
---ifm-color-info-dark: rgb(126, 182, 199);
+  
    
 }
 
-div[class^='announcementBar_'] {
-  background: #094d63 !important;
-  color: #ffffff !important;
-  font-weight: bold;
-  font-size: 1.2rem;
-}
-.alert--success {
-    --ifm-alert-background-color: var( --ifm-color-success-contrast-background );
-    --ifm-alert-background-color-highlight: rgba(63, 75, 63, 0.15);
-    --ifm-alert-foreground-color: var( --ifm-color-success-contrast-foreground );
-    --ifm-alert-border-color: var(--ifm-color-success-dark);
-}
+
+
 /* darkmode code block fill color */
 html[data-theme='dark'] .codeBlock_node_modules-\@docusaurus-theme-classic-lib-theme-CodeBlock-Content-styles-module {
-  --ifm-pre-background: rgb(163, 179, 184);
+  --ifm-pre-background: rgb(18, 23, 23);
 }
-
+/*  */
+[data-theme='dark'] .codeBlockTitle_node_modules-\@docusaurus-theme-classic-lib-theme-CodeBlock-Content-styles-module {
+  background: rgb(18, 23, 23);
+}
