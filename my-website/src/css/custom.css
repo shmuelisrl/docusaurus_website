@@ -54,7 +54,7 @@ html[data-theme='dark'] {
       /* --ifm-color-emphasis-700: #220c0c; */
 
    /* link highlight */
-    --ifm-link-color: #707e7c; 
+    --ifm-link-color: #839e9b; 
    
    /* text in `` highlight color */
      --ifm-code-background: #687573;
@@ -128,9 +128,14 @@ html[data-theme='dark'] {
   /* text color (including the title) */
     /* var(--ifm-alert-foreground-color) \/ */
     color: var(--ifm-color-content);
-
-  padding: .5rem;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.121);
+--summeryDropdown-side-padding: 1rem;
+--summeryDropdown-TopBottom-padding: 0.5rem;
+  /* padding: ; */
+  /* padding-top: var(--summeryDropdown-TopBottom-padding);
+  padding-right: var(--summeryDropdown-side-padding);
+  padding-bottom: var(--summeryDropdown-TopBottom-padding);
+  padding-left: var(--summeryDropdown-side-padding);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.121); */
   /* space after it */
     margin: 0 0 var(--ifm-spacing-vertical);
 
@@ -143,3 +148,12 @@ html[data-theme='dark'] {
     /* var(--ifm-alert-foreground-color) \/ */
     color: var(--ifm-color-content);
   }
+
+/* video,iframe {
+  width: 100;
+  height: auto;
+  object-fit: contain;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+} */
+/* --ifm-global-spacing: 1rem; */
