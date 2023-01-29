@@ -121,7 +121,6 @@ html[data-theme='dark'] {
   /* border  */
     /* var(--ifm-color-content)  \/ */
     border: 1px solid transparent;
-      
   /* fill color */
     background-color: rgba(0, 0, 0, 0.05);
 
@@ -159,11 +158,8 @@ html[data-theme='dark'] {
 /* --ifm-global-spacing: 1rem; */
 
 .floatme {
-  padding-right: 1rem ;
-  float:left;
-  --padim:25% ;
-  /* var(--padim) \/ */
-  width: auto;
-  height: auto;
+  border-radius: var(--ifm-alert-border-radius);
+  margin: 0 1rem var(--ifm-spacing-vertical) 0;
   
+  float:left;
 }
