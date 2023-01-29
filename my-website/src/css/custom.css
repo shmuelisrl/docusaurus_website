@@ -157,3 +157,13 @@ html[data-theme='dark'] {
   overflow: clip;
 } */
 /* --ifm-global-spacing: 1rem; */
+
+.floatme {
+  padding-right: 1rem ;
+  float:left;
+  --padim:25% ;
+  /* var(--padim) \/ */
+  width: auto;
+  height: auto;
+  
+}
