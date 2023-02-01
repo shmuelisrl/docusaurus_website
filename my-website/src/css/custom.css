@@ -30,6 +30,8 @@
   --ifm-color-primary-lighter: #90AAA8;
   --ifm-color-primary-lightest: #B7C4C0;
 
+  --aa-primary-color-rgb: 101,123,124;
+
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
@@ -170,16 +172,28 @@ html[data-theme='dark'] {
 } */
 /* --ifm-global-spacing: 1rem; */
 
+/* ===markdown=== */
+
 .floatme {
   border-radius: var(--ifm-alert-border-radius);
   margin: 0 1rem 0 0;
   
   width: 200px;
   max-width: 50%;
-  float:left;
+  float:left; 
+  
+}
+.bulletPoint-padding {
+  padding-left: 4rem;
 }
 
+.md-indent {
+  padding-left: 1rem;
+}
 
+.nobullet li {
+  list-style-type: none;
+}
 
 .react-player {
   padding: 0 ;
@@ -196,4 +210,76 @@ table {
   border-radius: var(--ifm-alert-border-radius);
 }
 
+
+
+/* ======search bar====== */
+/* html .aa-DetachedSearchButton {
+  align-items: center;
+  background-color: #fff;
+  background-color: rgba(var(--aa-input-background-color-rgb),var(--aa-input-background-color-alpha));
+  border: 1px solid rgba(128,126,163,.8);
+  border: 1px solid rgba(var(--aa-input-border-color-rgb),var(--aa-input-border-color-alpha));
+  border-radius: 2rem;
+  color: rgba(128,126,163,.6);
+  color: rgba(var(--aa-muted-color-rgb),var(--aa-muted-color-alpha));
+  cursor: pointer;
+  display: flex;
+  font: inherit;
+  font-family: inherit;
+  font-family: var(--aa-font-family);
+  font-size: 16px;
+  font-size: var(--aa-font-size);
+  height: 44px;
+  height: var(--aa-search-input-height);
+  margin: 0;
+  padding: 0 5.5px;
+  padding: 0 calc(var(--aa-search-input-height)/8);
+  position: relative;
+  text-align: left;
+  width: 100%;
+} */
+
+
+html .aa-DetachedSearchButton{
+  background-color: transparent;
+  border: 1px #2C3333;
+}
+html .aa-DetachedSearchButtonIcon {
+  color:  var(--ifm-color-primary);
+}
+html .aa-DetachedContainer .aa-Panel {
+  background-color: var(--ifm-background-color);
+}
+html .aa-Label svg, .aa-LoadingIndicator svg {
+  color: var(--ifm-color-primary);
+  
+}
+
+html .aa-Form {
+    background-color: var(--ifm-background-color);
+    border: 5px  #ff000000;
+    border-radius: 3px;
+}
+html .aa-Autocomplete, .aa-DetachedFormContainer, .aa-Panel {
+    color: rgb(255, 253, 253);
+    font-family: inherit;
+    font-family: var(--aa-font-family);
+    font-size: 16px;
+    font-size: var(--aa-font-size);
+    font-weight: 400;
+    line-height: 1em;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+html .aa-DetachedContainer {
+  background: var(--ifm-background-surface-color);
+}
+html .aa-DetachedOverlay {
+  background-color: rgb(129 129 129 / 40%);
+}
+html .aa-DetachedSearchButton {
+  color: var(--ifm-navbar-link-color);
+
+}
 
