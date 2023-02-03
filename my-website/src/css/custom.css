@@ -6,10 +6,9 @@
 
 /* You can override the default Infima variables here. */
 
+/* ==main-colors====================================== */
 :root {
-/* theme 2 \/ */
-
-   /* backround color */
+  /* backround color */
    --ifm-background-color: #eeebe5;
   /* navbar, menu, &  - color */
    --ifm-background-surface-color: #e5ded4;
@@ -35,63 +34,55 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
-
-/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* Darkmode. */
 html[data-theme='dark'] {
-  
-   /* theme 2 \/ */
-  
-
   /* text color */
-  /* --ifm-color-content: #220c0c; */
-   /* backround color */
-     --ifm-background-color: #2C3333;
-   /* main text color */
-    --ifm-color-content:#e3e3e3;
-   /* navbar, menu, &  - color */
-     --ifm-background-surface-color: #33474C;
-   /* footer color */
-      --ifm-footer-background-color: #33474C;
-      /* footer link... */
-      /* --ifm-color-emphasis-700: #220c0c; */
+   /* --ifm-color-content: #220c0c; */
+  /* backround color */
+   --ifm-background-color: #2C3333;
+  /* main text color */
+   --ifm-color-content:#e3e3e3;
+  /* navbar, menu, &  - color */
+   --ifm-background-surface-color: #33474C;
+  /* footer color */
+   --ifm-footer-background-color: #33474C;
+  /* footer link... */
+   /* --ifm-color-emphasis-700: #220c0c; */
+  /* link highlight */
+   --ifm-link-color: #839e9b; 
+  /* text in `` highlight color */
+   --ifm-code-background: #687573;
+  
+  --ifm-color-primary: #A5C9CA;
+  --ifm-color-primary-dark: #B0D1D1;
+  --ifm-color-primary-darker: #BBD8D7;
+  --ifm-color-primary-darkest: #C6E0DE;
+  --ifm-color-primary-light: #D1E7E5;
+  --ifm-color-primary-lighter: #DCEFEB;
+  --ifm-color-primary-lightest:#E7F6F2;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
-   /* link highlight */
-    --ifm-link-color: #839e9b; 
-   
-   /* text in `` highlight color */
-     --ifm-code-background: #687573;
-   
-   /* hint colors */
-     --ifm-color-secondary-contrast-background: #474748;
-     --ifm-color-secondary-contrast-foreground: rgb(253,253,254);
-     --ifm-color-secondary-dark:  rgb(212,213,216);
+  /* hint colors */
+    --ifm-color-secondary-contrast-background: #474748;
+    --ifm-color-secondary-contrast-foreground: rgb(253,253,254);
+    --ifm-color-secondary-dark:  rgb(212,213,216);
 
-     --ifm-color-success-contrast-background: rgb(82 100 82);
-     --ifm-color-success-contrast-foreground: rgb(230, 246, 230);
-     --ifm-color-success-dark: #009400;
+    --ifm-color-success-contrast-background: rgb(82 100 82);
+    --ifm-color-success-contrast-foreground: rgb(230, 246, 230);
+    --ifm-color-success-dark: #009400;
 
-     --ifm-color-info-contrast-background: rgb(69 93 100);
-     --ifm-color-info-contrast-foreground: rgb(238, 249, 253);
-     --ifm-color-info-dark: rgb(126,182,199);
+    --ifm-color-info-contrast-background: rgb(69 93 100);
+    --ifm-color-info-contrast-foreground: rgb(238, 249, 253);
+    --ifm-color-info-dark: rgb(126,182,199);
 
-     --ifm-color-warning-contrast-background: rgb(108 97 67);
-     --ifm-color-warning-contrast-foreground: rgb(255, 248, 230);
-     --ifm-color-warning-dark: rgb(230,167,0);
+    --ifm-color-warning-contrast-background: rgb(108 97 67);
+    --ifm-color-warning-contrast-foreground: rgb(255, 248, 230);
+    --ifm-color-warning-dark: rgb(230,167,0);
 
-     --ifm-color-danger-contrast-background: rgb(100 60 62);
-     --ifm-color-danger-contrast-foreground: rgb(255, 235, 236);
-     --ifm-color-danger-dark: rgb(225,50,56);
-   
-
-   --ifm-color-primary: #A5C9CA;
-   --ifm-color-primary-dark: #B0D1D1;
-   --ifm-color-primary-darker: #BBD8D7;
-   --ifm-color-primary-darkest: #C6E0DE;
-   --ifm-color-primary-light: #D1E7E5;
-   --ifm-color-primary-lighter: #DCEFEB;
-   --ifm-color-primary-lightest:#E7F6F2;
-   --ifm-code-font-size: 95%;
-   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+    --ifm-color-danger-contrast-background: rgb(100 60 62);
+    --ifm-color-danger-contrast-foreground: rgb(255, 235, 236);
+    --ifm-color-danger-dark: rgb(225,50,56);
   
    /* --ifm-table-cell-padding: 0.75rem;
    --ifm-table-background: transparent;
@@ -103,14 +94,9 @@ html[data-theme='dark'] {
    --ifm-table-head-font-weight: var(--ifm-font-weight-bold);
    --ifm-table-cell-color: inherit; */
 }
+/* ============================================== */
 
-.table th, table td {
-  border: var(--ifm-table-border-width) solid var(--ifm-table-border-color);
-  padding: var(--ifm-table-cell-padding);
-  border-radius: 5rem;
-}
-
-/* darkmode code block color */
+/* ==darkmode code block color=================== */
  /* title */
    [data-theme='dark'] .codeBlockTitle_node_modules-\@docusaurus-theme-classic-lib-theme-CodeBlock-Content-styles-module {
      /* fill color */
@@ -126,8 +112,9 @@ html[data-theme='dark'] {
    [data-theme='dark'] .theme-code-block-highlighted-line {
      background-color: var(--docusaurus-highlighted-code-line-bg);
    }
+/* ============================================== */
 
-/* dropdown summery settings */
+/* ==dropdown summery settings=================== */
   html .details_node_modules-\@docusaurus-theme-classic-lib-theme-Details-styles-module {
   /* button & button underline color */
     --docusaurus-details-decoration-color: var(--ifm-color-content);
@@ -142,8 +129,8 @@ html[data-theme='dark'] {
   /* text color (including the title) */
     /* var(--ifm-alert-foreground-color) \/ */
     color: var(--ifm-color-content);
---summeryDropdown-side-padding: 1rem;
---summeryDropdown-TopBottom-padding: 0.5rem;
+  --summeryDropdown-side-padding: 1rem;
+  --summeryDropdown-TopBottom-padding: 0.5rem;
   /* padding: ; */
   /* padding-top: var(--summeryDropdown-TopBottom-padding);
   padding-right: var(--summeryDropdown-side-padding);
@@ -151,8 +138,7 @@ html[data-theme='dark'] {
   padding-left: var(--summeryDropdown-side-padding);
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.121); */
   /* space after it */
-    margin: 0 0 var(--ifm-spacing-vertical);
-
+    margin: 0 0 var(--ifm-spacing-vertical)
   }
   html[data-theme = 'dark'] .details_node_modules-\@docusaurus-theme-classic-lib-theme-Details-styles-module {
   /* fill color */
@@ -162,124 +148,122 @@ html[data-theme='dark'] {
     /* var(--ifm-alert-foreground-color) \/ */
     color: var(--ifm-color-content);
   }
+/* ============================================= */ 
 
-/* video,iframe {
-  width: 100;
-  height: auto;
-  object-fit: contain;
-  overflow-clip-margin: content-box;
-  overflow: clip;
-} */
-/* --ifm-global-spacing: 1rem; */
+/* ==md/mdx-styling============================= */
+  .floatme {
+    border-radius: var(--ifm-alert-border-radius);
+    margin: 0 1rem 0 0;
+    
+    width: 200px;
+    max-width: 50%;
+    float:left; 
+    
+  }
+  .bulletPoint-padding {
+    padding-left: 4rem;
+  }
 
-/* ===markdown=== */
+  .md-indent {
+    padding-left: 1rem;
+  }
 
-.floatme {
-  border-radius: var(--ifm-alert-border-radius);
-  margin: 0 1rem 0 0;
-  
-  width: 200px;
-  max-width: 50%;
-  float:left; 
-  
-}
-.bulletPoint-padding {
-  padding-left: 4rem;
-}
+  .nobullet li {
+    list-style-type: none;
+  }
 
-.md-indent {
-  padding-left: 1rem;
-}
+  .react-player {
+    padding: 0 ;
+    margin: 0 0 var(--ifm-spacing-vertical) 0;
+    border-radius: var(--ifm-alert-border-radius);
+    overflow: hidden;
+  }
 
-.nobullet li {
-  list-style-type: none;
-}
+  /* =\/= */
+  /* table {
+    border-collapse: collapse;
+    display: block;
+    margin-bottom: var(--ifm-spacing-vertical);
+    overflow: auto;
+    border-radius: var(--ifm-alert-border-radius);
+  } */
 
-.react-player {
-  padding: 0 ;
-  margin: 0 0 var(--ifm-spacing-vertical) 0;
-  border-radius: var(--ifm-alert-border-radius);
-  overflow: hidden;
-}
+  /* .table th, table td {
+    border: var(--ifm-table-border-width) solid var(--ifm-table-border-color);
+    padding: var(--ifm-table-cell-padding);
+    border-radius: 5rem;
+  } */
+  /* =/\= */
+/* ============================================ */
 
-table {
-  border-collapse: collapse;
-  display: block;
-  margin-bottom: var(--ifm-spacing-vertical);
-  overflow: auto;
-  border-radius: var(--ifm-alert-border-radius);
-}
-
-
-
-/* ======search bar====== */
-/* html .aa-DetachedSearchButton {
-  align-items: center;
-  background-color: #fff;
-  background-color: rgba(var(--aa-input-background-color-rgb),var(--aa-input-background-color-alpha));
-  border: 1px solid rgba(128,126,163,.8);
-  border: 1px solid rgba(var(--aa-input-border-color-rgb),var(--aa-input-border-color-alpha));
-  border-radius: 2rem;
-  color: rgba(128,126,163,.6);
-  color: rgba(var(--aa-muted-color-rgb),var(--aa-muted-color-alpha));
-  cursor: pointer;
-  display: flex;
-  font: inherit;
-  font-family: inherit;
-  font-family: var(--aa-font-family);
-  font-size: 16px;
-  font-size: var(--aa-font-size);
-  height: 44px;
-  height: var(--aa-search-input-height);
-  margin: 0;
-  padding: 0 5.5px;
-  padding: 0 calc(var(--aa-search-input-height)/8);
-  position: relative;
-  text-align: left;
-  width: 100%;
-} */
-
-
-html .aa-DetachedSearchButton{
-  background-color: transparent;
-  border: 1px #2C3333;
-}
-html .aa-DetachedSearchButtonIcon {
-  color:  var(--ifm-color-primary);
-}
-html .aa-DetachedContainer .aa-Panel {
-  background-color: var(--ifm-background-color);
-}
-html .aa-Label svg, .aa-LoadingIndicator svg {
-  color: var(--ifm-color-primary);
-  
-}
-
-html .aa-Form {
-    background-color: var(--ifm-background-color);
-    border: 5px  #ff000000;
-    border-radius: 3px;
-}
-html .aa-Autocomplete, .aa-DetachedFormContainer, .aa-Panel {
-    color: rgb(255, 253, 253);
+/* ======search bar============================ */
+  /* html .aa-DetachedSearchButton {
+    align-items: center;
+    background-color: #fff;
+    background-color: rgba(var(--aa-input-background-color-rgb),var(--aa-input-background-color-alpha));
+    border: 1px solid rgba(128,126,163,.8);
+    border: 1px solid rgba(var(--aa-input-border-color-rgb),var(--aa-input-border-color-alpha));
+    border-radius: 2rem;
+    color: rgba(128,126,163,.6);
+    color: rgba(var(--aa-muted-color-rgb),var(--aa-muted-color-alpha));
+    cursor: pointer;
+    display: flex;
+    font: inherit;
     font-family: inherit;
     font-family: var(--aa-font-family);
     font-size: 16px;
     font-size: var(--aa-font-size);
-    font-weight: 400;
-    line-height: 1em;
+    height: 44px;
+    height: var(--aa-search-input-height);
     margin: 0;
-    padding: 0;
+    padding: 0 5.5px;
+    padding: 0 calc(var(--aa-search-input-height)/8);
+    position: relative;
     text-align: left;
-}
-html .aa-DetachedContainer {
-  background: var(--ifm-background-surface-color);
-}
-html .aa-DetachedOverlay {
-  background-color: rgb(129 129 129 / 40%);
-}
-html .aa-DetachedSearchButton {
-  color: var(--ifm-navbar-link-color);
+    width: 100%;
+  } */
 
-}
+  html .aa-DetachedSearchButton{
+    background-color: transparent;
+    border: 1px #2C3333;
+  }
+  html .aa-DetachedSearchButtonIcon {
+    color:  var(--ifm-color-primary);
+  }
+  html .aa-DetachedContainer .aa-Panel {
+    background-color: var(--ifm-background-color);
+  }
+  html .aa-Label svg, .aa-LoadingIndicator svg {
+    color: var(--ifm-color-primary);
+    
+  }
+
+  html .aa-Form {
+      background-color: var(--ifm-background-color);
+      border: 5px  #ff000000;
+      border-radius: 3px;
+  }
+  html .aa-Autocomplete, .aa-DetachedFormContainer, .aa-Panel {
+      color: rgb(255, 253, 253);
+      font-family: inherit;
+      font-family: var(--aa-font-family);
+      font-size: 16px;
+      font-size: var(--aa-font-size);
+      font-weight: 400;
+      line-height: 1em;
+      margin: 0;
+      padding: 0;
+      text-align: left;
+  }
+  html .aa-DetachedContainer {
+    background: var(--ifm-background-surface-color);
+  }
+  html .aa-DetachedOverlay {
+    background-color: rgb(129 129 129 / 40%);
+  }
+  html .aa-DetachedSearchButton {
+    color: var(--ifm-navbar-link-color);
+
+  }
+/* ============================================= */
 

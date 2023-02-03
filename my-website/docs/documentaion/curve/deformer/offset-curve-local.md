@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Offset Curve Local
-output: html_document
+description: This node offsets the curve in its local x,y,z (normal, tangent normal, and tangent) axes.
 tags:
   - Cuve
   - Deformer
@@ -10,7 +10,7 @@ tags:
 <div><img  width="30%" src="/img/docs/offset_curve_local.png" alt="Smiley face" className="floatme"/>
 
  ### Offset Curve Local
-  This node offsets the curve in its local x,y,z (normal,tangent normal, and tangent) axes
+  This node offsets the curve in its local x,y,z (normal, tangent normal, and tangent) axes.
   
 
 <img  width="100%" height="0%" src="/img/blank.png" alt="blank"/>  
@@ -21,19 +21,36 @@ tags:
 
 <div class="nobullet">
 
-#
+
 # Inputs
-* ## Curve
-  * _**Type -** Geometry-Curve_. **-**
-* ## Selection
-  * _**Type -** Boolean, **Domain -** Point_. **-**
-* ## Offset
-  * _**Type -** Vector, **Domain -** Point_. **-**
+<div class="md-indent">
+
+## Curve
+<div class="md-indent">
+
+_**Type -** Geometry-Curve_. **-**
+</div>
+
+## Selection
+<div class="md-indent">
+
+_**Type -** Boolean, **Domain -** Point_. **-** 
+</div>
+
+## Offset
+<div class="md-indent">
+
+_**Type -** Vector, **Domain -** Point_. **-**
+</div>
+
+</div>
 
 # Outputs
-* ## Curve
-  * _**Type -** Geometry-Curve_. **-**
+<div class="md-indent">
 
+## Curve
+  _**Type -** Geometry-Curve_. **-**
+  </div>
 
 </div>
 
