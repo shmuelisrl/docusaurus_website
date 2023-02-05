@@ -1,0 +1,7 @@
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\QBend Curve\nThis node offsets the curve in its local x,y,z (normal, tangent normal, and tangent) axes\\E$"}
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\QOffset Curve Local\nThis node offsets the curve in its local x,y,z (normal, tangent normal, and tangent) axes.\\E$"}
+{"rule":"UPPERCASE_SENTENCE_START","sentence":"^\\Qimport Tabs from '@theme/Tabs'; import TabItem from '@theme/TabItem';\\E$"}
+{"rule":"WHITESPACE_RULE","sentence":"^\\QNumber of rotations per curve.\\E$"}
+{"rule":"WHITESPACE_RULE","sentence":"^\\QNumber of rotations per meter.\\E$"}
+{"rule":"WHITESPACE_RULE","sentence":"^\\QAngle each point is offset from another.\\E$"}
+{"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\Q( - The rotation is relative from the previous point in the curve.)\\E$"}
