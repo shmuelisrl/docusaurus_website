@@ -1,3 +1,27 @@
+/* ==theme 3============ */
+:root {
+  /* backround color */
+   --ifm-background-color: #eeebe5;
+  /* navbar, menu, &  - color */
+   --ifm-background-surface-color: #e5ded4;
+  /* footer color */
+   --ifm-footer-background-color: #e5ded4;
+  /* link highlight */
+   --ifm-link-color: #7f9e9a; 
+  
+  --docusaurus-highlighted-code-line-bg: #b2a8d0;
+  /* text in `` highlight color */
+   --ifm-code-background: #A3B7B4;
+
+  --ifm-color-primary: #576F72;
+  --ifm-color-primary-dark: #617B7D;
+  --ifm-color-primary-darker: #6A8687;
+  --ifm-color-primary-darkest: #749292;
+  --ifm-color-primary-light: #7D9D9C;
+  --ifm-color-primary-lighter: #90AAA8;
+  --ifm-color-primary-lightest: #B7C4C0;
+}
+/* ========================= */
 /* original */
 
 :root {  

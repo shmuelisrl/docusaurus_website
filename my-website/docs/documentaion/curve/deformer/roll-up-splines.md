@@ -66,8 +66,19 @@ Whether to have a fixed [radius](#radius) size, or to have a realistic roll effe
 ## Radius
 <div class="md-indent">
 
-_**Type -** Float, **Domain -** Point_.  
-The radius of the rolled-up part of the curve when the [Factor](#factor) is at 1, in meters. If negative, will invert what side (relative to the tangent normal) it's rolled **on** (- not from).
+_**Type -** Float, **Domain -** Point_. 
+<Tabs>
+  <TabItem value="1" label="False">
+
+The **constant** radius of the rolled-up part of the curve, in meters. If negative, will invert what side (relative to the tangent normal) it's rolled **on** *(- not from)*.
+
+  </TabItem>
+  <TabItem value="2" label="Radius Start from 0" default>
+
+The radius of the rolled-up part of the curve **when the [Factor](#factor) is at 1**, in meters. If negative, will invert what side (relative to the tangent normal) it's rolled **on** *(- not from)*.
+
+  </TabItem>
+</Tabs>
 </div>
 
 ## Clamp Radius
@@ -97,7 +108,7 @@ How far into the center radius of the spiral to goes; 1 being all the way, and 0
 <div class="md-indent">
 
  _**Type -** Float, **Domain -** Point_.  
-How many rotations there are when the factor is at 1. If negative, will invert what side (relative to the tangent normal) it's rolled **on** (- not from).
+How many rotations there are *when the factor is at 1*. If negative, will invert what side (relative to the tangent normal) it's rolled **on** *(- not from)*.
 </div>
 
 ## Radius / Diameter
