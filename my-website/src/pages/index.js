@@ -17,19 +17,11 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/intro">
+            to="/docs/category/deformer">
             BBTK Documentation 
           </Link>
         </div>
         <p></p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/blog">
-            blog
-          </Link>
-          
-        </div>
       </div>
     </header>
   );

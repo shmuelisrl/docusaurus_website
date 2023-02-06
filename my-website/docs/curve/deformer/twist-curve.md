@@ -96,6 +96,7 @@ How far away outwards from the curve to offset the spiral(aka the radius).
 
 _**Type -** Geometry-Curve_.  
 Outputs the deformed geometry.
+> All indices will stay the same.
 
 </div>
 </div>

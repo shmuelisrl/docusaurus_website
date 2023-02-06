@@ -8,8 +8,8 @@ tags:
 <!-- Node Image -->
 <div><img  width="30%" src="/img/docs/contract_curve.png" alt="Smiley face" className="floatme"/>
 
- ### Contract Curve
-  This is a trim curve node that preserves the topology, so it is "contracting" the curve instead of trimming it - which dose changes the topology. This is useful for animations when instancing, and it reduces flickering etc.
+### Contract Curve
+This is a trim curve node that preserves the topology, so it is "contracting" the curve instead of trimming it - which dose changes the topology. This is useful for animations when instancing, and it reduces flickering etc.
   
 
 <!-- Blank Space after imge+description -->
@@ -33,11 +33,7 @@ Works best with non-cyclic curves, as well as poly curves [non-Bézier/ non-inte
 
  _**Type -** Boolean, **Domain -** Spline_.  
 Which splines are effected.
-:::info
 
-All indices stay the same **unless** you are using *cyclic* curves, then the endpoint/startpoint will split thereby changing the indices; The spline indices on the other hand still stay the same.)
-
-:::
 
 </div>
 
@@ -97,5 +93,10 @@ _**Type -** Integer, **Domain -** Spline_.
 
 _**Type -** Geometry-Curve_.  
 Outputs the deformed and/or altered topology geometry.
+:::info
+
+All indices stay the same **unless** you are using *cyclic* curves, then the endpoint/startpoint will split, thereby changing the indices; The spline indices on the other hand still stay the same
+
+:::
 </div>
 </div>
