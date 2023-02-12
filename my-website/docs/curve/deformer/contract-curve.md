@@ -1,16 +1,17 @@
 ---
 sidebar_position: 3
 title: Contract Curve
+description: This is a trim curve node that preserves the topology, so it is "contracting" the curve instead of trimming it - which dose changes the topology. This is useful for animations when instancing, and it reduces flickering etc. 
 tags:
   - Cuve
   - Deformer
 ---
 <!-- Node Image -->
-<div><img  width="30%" src="/img/docs/contract_curve.png" alt="Smiley face" className="floatme"/>
+<div>
+<img  width="30%" src="/img/docs/contract_curve.png" alt="Smiley face" className="floatme"/>
 
 ### Contract Curve
-This is a trim curve node that preserves the topology, so it is "contracting" the curve instead of trimming it - which dose changes the topology. This is useful for animations when instancing, and it reduces flickering etc.
-  
+This is a trim curve node that preserves the topology, so it is "contracting" the curve instead of trimming it - which dose changes the topology. This is useful for animations when instancing, and it reduces flickering etc. 
 
 <!-- Blank Space after imge+description -->
 <img  width="100%" height="0%" src="/img/blank.png" alt="blank"/>  
@@ -72,7 +73,7 @@ Takes the normals from the position along the curve that it was "trimmed" [contr
 <div class="md-indent">
 
 _**Type -** Boolean, **Domain -** Spline_.  
-Takes the radius from the position along the curve that it was "trimmed" [contracted] to be at. ( - not as ueful as [fixed normal](#fixed-normal) in my opinion.)
+Takes the radius from the position along the curve that it was "trimmed" [contracted] to be at. (- not as useful as [fixed normal](#fixed-normal) in my opinion.)
 </div>
 
 ## Spline Endpoint Offset
