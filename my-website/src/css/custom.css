@@ -5,8 +5,11 @@
  */
 
 /* You can override the default Infima variables here. */
-
+html{
+  scroll-behavior: smooth  ;
+}
 /* ==main-colors====================================== */
+
 :root {
   /* backround color */
     --ifm-background-color: #eeebe5;

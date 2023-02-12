@@ -1,6 +1,7 @@
 ---
 sidebar_position: 4
 title: Roll Up Splines
+description: This node rolls up a curve from the start to the end, similar to trimming but rolling up the extra instead of removing it.
 tags:
   - Cuve
   - Deformer
@@ -14,7 +15,7 @@ import TabItem from '@theme/TabItem';
 <img  width="30%" src="/img/docs/roll_up_splines.png" alt="Smiley face" className="floatme"/>
 
  ### Roll Up Splines
-  This node rolls up a curve from the start to the end, similar to trimming but rolling up the extra instead of removing it.
+This node rolls up a curve from the start to the end, similar to trimming but rolling up the extra instead of removing it.
    
 <!-- Blank Space after imge+description -->
 <img  width="100%" height="0%" src="/img/blank.png" alt="blank"/>  

@@ -5,3 +5,6 @@
 {"rule":"WHITESPACE_RULE","sentence":"^\\QNumber of rotations per meter.\\E$"}
 {"rule":"WHITESPACE_RULE","sentence":"^\\QAngle each point is offset from another.\\E$"}
 {"rule":"COMMA_PARENTHESIS_WHITESPACE","sentence":"^\\Q( - The rotation is relative from the previous point in the curve.)\\E$"}
+{"rule":"MASS_AGREEMENT","sentence":"^\\QThe pivot point.\\E$"}
+{"rule":"MORFOLOGIK_RULE_EN_US","sentence":"^\\QBend it from the startpoint of the curve or the endpoint.\\E$"}
+{"rule":"EN_DIACRITICS_REPLACE","sentence":"^\\QBezier Handle Type Index\nThis node tells you what handle type a point on a bezier curve has.\\E$"}

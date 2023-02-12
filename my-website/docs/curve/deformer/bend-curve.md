@@ -1,6 +1,7 @@
 ---
 sidebar_position: 5
 title: Bend Curve
+description: This node bends a curve in a specified direction.
 tags:
   - Cuve
   - Deformer
@@ -9,7 +10,7 @@ tags:
 <div>
 <img  width="30%" src="/img/docs/bend_curves.png" alt="Smiley face" className="floatme"/>
 
- ### Bend Curve
+### Bend Curve
 This node bends a curve in a specified direction.
    
 <!-- Blank Space after imge+description -->
