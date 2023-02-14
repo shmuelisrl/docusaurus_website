@@ -5,9 +5,28 @@
  */
 
 /* You can override the default Infima variables here. */
+/* ==heading link */
 html{
-  scroll-behavior: smooth  ;
+  scroll-behavior: smooth ;
+  scroll-padding-top: 5rem;
+
 }
+/* --var if i don't use 'var(--ifm-link-color)'-- */
+/* :root {
+  --h-highlight-animation-color: green;
+}
+:root[data-theme='dark'] {
+  --h-highlight-animation-color: red;
+} */
+@keyframes highlight1 {
+  0% { color: var(--ifm-link-color); }
+  100% { color: var(--ifm-heading-color); }
+}
+:target {
+  animation: highlight1 6s ease;       
+} 
+/* --------------------------------------------- */
+
 /* ==main-colors====================================== */
 
 :root {
@@ -97,6 +116,7 @@ html[data-theme='dark'] {
    --ifm-table-head-font-weight: var(--ifm-font-weight-bold);
    --ifm-table-cell-color: inherit; */
 }
+
 /* ============================================== */
 
 /* ==darkmode code block color=================== */

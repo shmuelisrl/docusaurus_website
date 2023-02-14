@@ -11,7 +11,7 @@ tags:
 <img  width="30%" src="/img/docs/curve_to_mesh_+.png" alt="Smiley face" className="floatme"/>
 
  ### Curve to Mesh + 
-This node expands the functionality of the regular [curve to mesh](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/curve/curve_to_mesh.html) node, by adding proper uv's, even thickness, and extras like [spline coordinates]).
+This node expands the functionality of the regular [curve to mesh](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/curve/curve_to_mesh.html) node, by adding proper uv's, even thickness, and extras like [spline coordinates](/docs/curve/utilities/spline-coordinates).
   
 <!-- Blank Space after imge+description -->
 <img  width="100%" height="0%" src="/img/blank.png" alt="blank"/>  
