@@ -36,6 +36,13 @@ _**Type -** Integer, **Domain -** Spline_.
 The splines index.
 </div>
 
+## Evaluated Point Count
+<div class="md-indent">
+
+_**Type -** Integer, **Domain -** Spline_.  
+The Evaluated point count per spline; meaning the point-count including the imaginary topology that becomes real when [resampled _Evaluated_.](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/curve/resample_curve.html#:~:text=Evaluated,for%20poly%20splines.)
+</div>
+
 ## Center Mass
 <div class="md-indent">
 

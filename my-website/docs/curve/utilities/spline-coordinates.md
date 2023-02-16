@@ -23,29 +23,34 @@ This node gives the local Coordinates from your geometry to the inputted spline 
 ## Curve
 <div class="md-indent">
 
-_**Type -** Geometry-Curve_.
+_**Type -** Geometry-Curve_.  
+The curve (/ splines) that you're sampling the [outputs](#outputs) from.
 </div>
 </div>
 
-# outputs
+# Outputs
 <div class="md-indent">
 
 ## Spline Coordinates
 <div class="md-indent">
 
-_**Type -** Vector, **Domain -** Point_.
+_**Type -** Vector, **Domain -** Point_.  
+The local [object] coordinates relative to the [curve](#curve) as if the startpoint is (0,0,0) and conforms to the curve (along the Tangent is Z, along the Normal is X, and along Normal-Tangent is Y). For example if a point is 1 m away from the [curve](#curve) along the normal it will have an X of 1, if it is 1 m along the [curve](#curve) (it has a length of 1) it will have a Z of 1 etc.
+
 </div>
 
 ## Radius
 <div class="md-indent">
 
-_**Type -** Float, **Domain -** Point_.
+_**Type -** Float, **Domain -** Point_.  
+The radius of the points on the [curve](#curve) closest to points of whatever the output is plugged into.
 </div>
 
 ## Spline Index
 <div class="md-indent">
 
-_**Type -** Integer, **Domain -** Point_.
+_**Type -** Integer, **Domain -** Point_.  
+The spline index of the points on the [curve](#curve) closest to points of whatever the output is plugged into.
 </div>
 
 </div>

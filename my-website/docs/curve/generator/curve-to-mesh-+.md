@@ -65,7 +65,8 @@ Fills / adds caps to the ends of the non-cyclic generated mesh's opened ends ([s
 
 _**Type -** Geometry-Mesh_.  
 Outputs the Generated geometry.
-> Indices will be new because there is more geometry, but they will be ordered. `Y * length(X) + X = Index.` when [spline parameter - index](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/curve/spline_parameter.html#:~:text=of%20the%20spline.-,Index,%2C%20which%20also%20counts%20the%20control%20points%20in%20all%20previous%20splines.,-Examples) of [curve](#curve) is Y, and of [curve profile](#curve-profile) is X. 'length(X)' is the [curve profile](#curve-profile)'s evaluated point count.
+> Indices will be new because there is more geometry, but they will be ordered.   
+( `Y * length(X) + X + (I + 1) = Index.` when [spline parameter - index](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/curve/spline_parameter.html#:~:text=of%20the%20spline.-,Index,%2C%20which%20also%20counts%20the%20control%20points%20in%20all%20previous%20splines.,-Examples) of [curve](#curve) is `Y`, and of [curve profile](#curve-profile) is `X`. `length(X)` is the [curve profile](#curve-profile)'s evaluated point count. `I` is the last index of the previous meshed spline, if no previous spline -1. )
 
 </div>
 
