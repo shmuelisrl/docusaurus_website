@@ -30,7 +30,7 @@ import TabItem from '@theme/TabItem';
 _**Type -** Geometry-Curve_.
 :::tip 
 
-  Make sure your curves have enough topology [control points] to be able to be twisted properly. - Most issues you'll come across probably have something to do with this. - also only real topology is used to a Bézier curves and the similar might not have enough topology, so I recommend using a [resample curve node](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/curve/resample_curve.html) set to Evaluated (or whatever).
+  Make sure your curves have enough topology [control points] to be able to be twisted properly. - Most issues you'll come across probably have something to do with this. - also only real topology is used to a Bézier curves and the similar might not have enough topology, so I recommend using a [resample curve node](https://docs.blender.org/manual/en/latest/modeling/geometry_nodes/curve/resample_curve.html#:~:text=Evaluate%20the%20spline%E2%80%99s%20points%20based%20on%20the%20resolution%20attribute%20for%20NURBS%20and%20B%C3%A9zier%20splines.%20Changes%20nothing%20for%20poly%20splines.) set to Evaluated (or whatever).
 
 :::
    
